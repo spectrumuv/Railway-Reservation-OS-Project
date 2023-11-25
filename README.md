@@ -1,13 +1,20 @@
 # Railway Reservation System
+<<<<<<< HEAD
 
 The Railway Reservation System is a Python-based client-server application that manages train reservations for users. This system allows users to register, log in, book tickets, cancel booked tickets, and manage their profiles. Administrators can register trains, delete trains, and perform other administrative tasks.
 
 # Features
 
+=======
+The Railway Reservation System is a Python-based client-server application that manages train reservations for users. This system allows users to register, log in, book tickets, cancel booked tickets, and manage their profiles. Administrators can register trains, delete trains, and perform other administrative tasks.
+
+# Features
+>>>>>>> 3d6e0b5ffd3708ba9ce094d50b9123fe9a77b10a
 User Registration and Authentication: Users can create accounts by registering their details and authenticate themselves to access the system.
 Train Registration and Deletion: Administrators can add new trains to the system and delete existing train records.
 Ticket Booking and Cancellation: Users can search for available trains, book tickets, and cancel booked tickets if necessary.
 Profile Management: Users can view and update their profile information, including age, mobile number, and full name.
+<<<<<<< HEAD
 
 # Files
 
@@ -27,6 +34,18 @@ README.md: This file, containing information about the project.
 
 # Setup Instructions
 
+=======
+# Files
+The project consists of the following main files:
+
+server.py: Implements the server-side functionality using sockets to handle client requests concurrently.
+client.py: Represents the client-side code to interact with the server for user actions.
+users.txt: Stores user details such as username, password, age, mobile number, and full name.
+trains.txt: Contains information about registered trains, including train number, hours taken, destination station, boarding station, and available seats.
+booking.txt: Stores booking details, including train number, booked seat number, and username.
+README.md: This file, containing information about the project.
+# Setup Instructions
+>>>>>>> 3d6e0b5ffd3708ba9ce094d50b9123fe9a77b10a
 Clone the Repository:
 
 git clone https://github.com/username/Railway-Reservation-System.git
@@ -41,8 +60,15 @@ Run the Client:
 
 Execute the client script to interact with the server:
 
+<<<<<<< HEAD
 python client.py
 
 # Usage
 
+=======
+
+python client.py
+
+# Usage
+>>>>>>> 3d6e0b5ffd3708ba9ce094d50b9123fe9a77b10a
 Upon running the client script, users can select different options from the menu, such as Admin Mode, User Mode, Registration, Login, Ticket Booking, etc., to perform specific actions as per the system's functionalities.
