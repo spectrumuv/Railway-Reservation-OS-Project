@@ -1,4 +1,4 @@
-## Group 3 OS Lab Project
+## Group 3 (21CS8120 - 21CS8129) OS Lab Project - Railway Reservation System
 
 # Railway Reservation System
 
